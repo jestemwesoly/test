@@ -92,6 +92,10 @@ h1.company-name {
   width: 100%;
 }
 
+.sticky-body {
+  overflow: hidden;
+}
+
 .header {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
@@ -252,6 +256,9 @@ h1.company-name {
     grid-column: 1/2;
     grid-row: 1/2;
   }
+  .nav-mobile {
+    display: none;
+  }
   .nav-desktop {
     display: block;
     border-bottom: 1px solid rgba(255, 255, 255, 0.2);
@@ -280,4 +287,4 @@ h1.company-name {
   .header__text p {
     font-size: 2.2rem;
   }
-}/*# sourceMappingURL=main.css.map */
+}/*# sourceMappingURL=style.css.map */
