@@ -1,0 +1,27 @@
+@use './colors' as *;
+
+html {
+	font-size: 62.5%;
+	scroll-behavior: smooth;
+}
+
+body {
+	// font-family: 'Cinzel-Variable', serif;
+	font-family: 'Raleway-Regular', sans-serif;
+	font-size: 1.6rem;
+	background-color: $dark;
+	color: $white;
+}
+
+h1.company-name {
+	margin-bottom: 0.5em;
+	font-family: 'Cinzel-Variable-Bold';
+	font-size: 3rem;
+	color: $gold;
+}
+
+.wrapper {
+	margin: 0 auto;
+	max-width: 1200px;
+	width: 100%;
+}

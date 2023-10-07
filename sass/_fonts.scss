@@ -1,0 +1,41 @@
+@font-face {
+	font-family: 'Cinzel-Variable';
+	src: url(../fonts/Cinzel-VariableFont_wght.woff2) format('woff2'),
+		url(../fonts/Cinzel-VariableFont_wght.woff) format('woff');
+	font-weight: 400;
+	font-style: normal;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: 'Cinzel-Variable-Bold';
+	src: url(../fonts/Cinzel-VariableFont_wght.woff2) format('woff2'),
+		url(../fonts/Cinzel-VariableFont_wght.woff) format('woff');
+	font-weight: 700;
+	font-style: normal;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: 'Raleway-ExtraLight';
+	src: url(../fonts/Raleway-ExtraLight.woff2) format('woff2'), url(../fonts/Raleway-ExtraLight.woff) format('woff');
+	font-weight: 200;
+	font-style: normal;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: 'Raleway-Regular';
+	src: url(../fonts/Raleway-Regular.woff2) format('woff2'), url(../fonts/Raleway-Regular.woff) format('woff');
+	font-weight: 400;
+	font-style: normal;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: 'Raleway-Black';
+	src: url(../fonts/Raleway-Black.woff2) format('woff2'), url(../fonts/Raleway-Black.woff) format('woff');
+	font-weight: 900;
+	font-style: normal;
+	font-display: swap;
+}
