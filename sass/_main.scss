@@ -130,3 +130,45 @@
 		display: none;
 	}
 }
+
+// PLANS
+.plans {
+	padding: 6em 2em;
+	background-color: $darker;
+
+	&__box {
+		margin: 1em 0;
+		padding: 2em 1em;
+		text-align: center;
+		border: 1px solid transparent;
+		border-radius: 8px;
+		background-color: $dark;
+		cursor: pointer;
+
+		&:hover {
+			background-color: $darker;
+			border: 1px solid $gold;
+			transition: all 0.3s;
+		}
+	}
+
+	&__item {
+		margin: 1em 0;
+
+		b {
+			font-family: 'Raleway-Black';
+		}
+	}
+
+	&__item-icon {
+		width: 50px;
+	}
+
+	&__item-name {
+		margin-top: 0;
+		margin-bottom: 1.5em;
+		font-family: 'Raleway-Black';
+		font-size: 1.8rem;
+		color: $gold;
+	}
+}

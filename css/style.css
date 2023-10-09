@@ -325,6 +325,41 @@ h1.company-name {
   display: none;
 }
 
+.plans {
+  padding: 6em 2em;
+  background-color: #191919;
+}
+.plans__box {
+  margin: 1em 0;
+  padding: 2em 1em;
+  text-align: center;
+  border: 1px solid transparent;
+  border-radius: 8px;
+  background-color: #232323;
+  cursor: pointer;
+}
+.plans__box:hover {
+  background-color: #191919;
+  border: 1px solid #d6c78e;
+  transition: all 0.3s;
+}
+.plans__item {
+  margin: 1em 0;
+}
+.plans__item b {
+  font-family: "Raleway-Black";
+}
+.plans__item-icon {
+  width: 50px;
+}
+.plans__item-name {
+  margin-top: 0;
+  margin-bottom: 1.5em;
+  font-family: "Raleway-Black";
+  font-size: 1.8rem;
+  color: #d6c78e;
+}
+
 @media (min-width: 576px) {
   .info {
     display: grid;
@@ -386,6 +421,21 @@ h1.company-name {
   .cards__card--three {
     grid-row: 1/2;
     grid-column: 7/10;
+  }
+  .plans {
+    padding: 8em 2em;
+  }
+  .plans__box {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    align-items: center;
+  }
+  .plans__item {
+    margin: 0 1em;
+  }
+  .plans__item-name {
+    margin-top: 0;
+    margin-bottom: 0;
   }
 }
 @media (min-width: 992px) {
