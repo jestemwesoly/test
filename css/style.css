@@ -308,21 +308,69 @@ h1.company-name {
   margin-bottom: 0.5em;
 }
 .info__box-link {
-  display: block;
+  display: flex;
+  justify-content: flex-end;
   margin-bottom: 2em;
+}
+.info__box-link a {
   font-family: "Raleway-Black";
   color: #d6c78e;
-  text-align: right;
   text-decoration: none;
   transition: color 0.3s;
 }
-.info__box-link:hover {
+.info__box-link a:hover {
   color: #9b9165;
 }
 .info__bg-icon {
   display: none;
 }
 
+@media (min-width: 576px) {
+  .info {
+    display: grid;
+    grid-template-areas: "title box" "title box" "title box";
+    padding: 10em 2em;
+  }
+  .info__box {
+    display: grid;
+    justify-content: end;
+  }
+  .info__title {
+    padding: 0 1em;
+  }
+  .info__box-img, .info__box-text {
+    max-width: 500px;
+  }
+  .info__bg-icon {
+    position: absolute;
+    display: block;
+    opacity: 0.05;
+    z-index: -5;
+  }
+  .info__bg-icon--one {
+    top: 14%;
+    width: 20%;
+    animation: rotate-right 160s infinite linear;
+  }
+  .info__bg-icon--two {
+    bottom: 10%;
+    left: 10%;
+    width: 30%;
+    animation: rotate-left 140s infinite linear;
+  }
+  .info__bg-icon--three {
+    top: 26%;
+    left: 16%;
+    width: 50%;
+    animation: rotate-left 160s infinite linear;
+  }
+  .info__bg-icon--four {
+    top: 55%;
+    left: -10%;
+    width: 15%;
+    animation: rotate-right 140s infinite linear;
+  }
+}
 @media (min-width: 768px) {
   .cards__box {
     padding: 10em 2em;
@@ -341,6 +389,12 @@ h1.company-name {
   }
 }
 @media (min-width: 992px) {
+  .section-title {
+    font-size: 4.8rem;
+  }
+  .section-title::before {
+    height: 4px;
+  }
   .header {
     grid-template-rows: auto repeat(2, 1fr);
   }

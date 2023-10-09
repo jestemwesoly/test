@@ -109,17 +109,20 @@
 	}
 
 	&__box-link {
-		display: block;
+		display: flex;
+		justify-content: flex-end;
 		margin-bottom: 2em;
-		// font-weight: bold;
-		font-family: 'Raleway-Black';
-		color: $gold;
-		text-align: right;
-		text-decoration: none;
-		transition: color 0.3s;
 
-		&:hover {
-			color: $darkgold;
+		a {
+			// font-weight: bold;
+			font-family: 'Raleway-Black';
+			color: $gold;
+			text-decoration: none;
+			transition: color 0.3s;
+
+			&:hover {
+				color: $darkgold;
+			}
 		}
 	}
 
