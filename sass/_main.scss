@@ -212,3 +212,19 @@
 		}
 	}
 }
+
+// GALLERY
+.gallery {
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+
+	img {
+		height: 300px;
+		width: 100%;
+		object-fit: cover;
+
+		&:nth-child(odd) {
+			display: none;
+		}
+	}
+}
