@@ -419,9 +419,10 @@ h1.company-name {
   font-size: 2rem;
 }
 .contact__form-box textarea {
-  max-width: 100%;
   width: 100%;
+  max-width: 100%;
   min-width: 100%;
+  resize: vertical;
 }
 .contact__form-box input,
 .contact__form-box textarea {
